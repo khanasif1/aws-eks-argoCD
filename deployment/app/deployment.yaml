@@ -15,7 +15,7 @@ spec:
       spec:
         containers:
         - name: web
-          image:  khanasif1/k8_web:rc2
+          image:  khanasif1/k8_web:rc1
           imagePullPolicy: Always
           resources:
             requests:

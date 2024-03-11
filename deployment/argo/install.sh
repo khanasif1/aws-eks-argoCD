@@ -5,6 +5,7 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 
 
 # Access Admin Portal
+kubectl port-forward svc/argocd-server -n argocd 8080:443
 
 UserName : admin
 
