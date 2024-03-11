@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deployment", "deployment", "{3735D3B7-A599-40CA-B39F-A043CBC7C7C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{B8A41E88-CBFD-4DBC-8EF6-279ABA086732}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "code", "code", "{CB2BE073-00F5-4B69-938F-5919B2271E7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "kubernetesMicroserviceApp-master", "kubernetesMicroserviceApp-master", "{E3A635DA-0D15-4B4A-B235-4EFD77F0E65E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "k8.kubernetesWorld.Web", "deployment\app\code\kubernetesMicroserviceApp-master\k8.kubernetesWorld.Web\k8.kubernetesWorld.Web.csproj", "{32EDE8A0-3D79-4DB7-B378-22850B419626}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32EDE8A0-3D79-4DB7-B378-22850B419626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32EDE8A0-3D79-4DB7-B378-22850B419626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32EDE8A0-3D79-4DB7-B378-22850B419626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32EDE8A0-3D79-4DB7-B378-22850B419626}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8A41E88-CBFD-4DBC-8EF6-279ABA086732} = {3735D3B7-A599-40CA-B39F-A043CBC7C7C6}
+		{CB2BE073-00F5-4B69-938F-5919B2271E7F} = {B8A41E88-CBFD-4DBC-8EF6-279ABA086732}
+		{E3A635DA-0D15-4B4A-B235-4EFD77F0E65E} = {CB2BE073-00F5-4B69-938F-5919B2271E7F}
+		{32EDE8A0-3D79-4DB7-B378-22850B419626} = {E3A635DA-0D15-4B4A-B235-4EFD77F0E65E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B20E84B-A174-4067-AA79-7CAA5F9A7072}
+	EndGlobalSection
+EndGlobal
